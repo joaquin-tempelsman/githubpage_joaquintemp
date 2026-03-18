@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,43 +26,61 @@
 
         header {
             background: white;
-            padding: 60px 20px;
+            padding: 40px 20px 30px;
             text-align: center;
             border-bottom: 1px solid #e0e0e0;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 3px solid #e0e0e0;
         }
 
         h1 {
             font-size: 2.5em;
-            margin-bottom: 10px;
+            margin-bottom: 4px;
             color: #2c3e50;
         }
 
         .subtitle {
             font-size: 1.2em;
             color: #7f8c8d;
-            margin-bottom: 20px;
-        }
-
-        .social-links {
-            margin-top: 20px;
-        }
-
-        .social-links a {
-            display: inline-block;
-            margin: 0 15px;
-            color: #3498db;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .social-links a:hover {
-            text-decoration: underline;
+            margin-bottom: 8px;
         }
 
         .location {
             color: #7f8c8d;
             font-size: 0.95em;
+            margin-bottom: 12px;
+        }
+
+        .social-links {
+            margin-top: 10px;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #0a66c2;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .social-links a:hover {
+            opacity: 0.8;
+        }
+
+        .social-links a svg {
+            width: 24px;
+            height: 24px;
+            fill: #0a66c2;
         }
 
         main {
@@ -76,12 +94,35 @@
             margin-bottom: 40px;
         }
 
+        section:first-child {
+            margin-top: 0;
+        }
+
         h2 {
             font-size: 1.8em;
             margin-bottom: 20px;
             color: #2c3e50;
             border-bottom: 2px solid #3498db;
             padding-bottom: 10px;
+        }
+
+        .about-text {
+            margin-bottom: 12px;
+        }
+
+        .highlights {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .highlight-badge {
+            background: #ecf0f1;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            color: #2c3e50;
         }
 
         .services-grid {
@@ -108,19 +149,39 @@
             font-size: 0.95em;
         }
 
-        .highlights {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 20px;
+        .experience-detail {
+            margin-bottom: 10px;
         }
 
-        .highlight-badge {
-            background: #ecf0f1;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            color: #2c3e50;
+        .companies-section {
+            margin-top: 40px;
+        }
+
+        .companies-section h2 {
+            text-align: center;
+        }
+
+        .companies-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .company-logo {
+            height: 40px;
+            max-width: 130px;
+            object-fit: contain;
+            filter: grayscale(100%);
+            opacity: 0.6;
+            transition: filter 0.3s, opacity 0.3s;
+        }
+
+        .company-logo:hover {
+            filter: grayscale(0%);
+            opacity: 1;
         }
 
         .cta-button {
@@ -165,79 +226,112 @@
             .services-grid {
                 grid-template-columns: 1fr;
             }
+
+            .companies-grid {
+                gap: 25px;
+            }
+
+            .company-logo {
+                height: 30px;
+                max-width: 100px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
+        <img src="img/profile_picture.jpeg" alt="Joaquin Tempelsman" class="profile-img">
         <h1>Joaquin Tempelsman</h1>
         <p class="subtitle">Data Science & AI Consulting</p>
         <p class="location">Buenos Aires, Argentina</p>
         <div class="social-links">
-            <a href="https://www.linkedin.com/in/joaquin-tempelsman/" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/joaquin-tempelsman/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
         </div>
     </header>
 
     <div class="container">
         <main>
             <section>
-                <h2>About</h2>
-                <p>Data Scientist with a passion for designing and implementing AI-powered solutions that drive measurable business impact. I help organizations unlock value from their data through strategic consulting, advanced analytics, and machine learning implementation.</p>
+                <h2>Acerca de</h2>
+                <p class="about-text">Científico de Datos con experiencia en el diseño e implementación de soluciones impulsadas por inteligencia artificial que generan impacto medible en los negocios. Acompaño a organizaciones a desbloquear el valor de sus datos mediante consultoría estratégica, analítica avanzada e implementación de machine learning.</p>
+                <p class="about-text">Mi enfoque abarca todo el ciclo de vida de un proyecto de datos: desde la definición del problema y el diseño de la solución, hasta el despliegue en producción y el monitoreo continuo.</p>
                 <div class="highlights">
-                    <span class="highlight-badge">✓ Data Science</span>
-                    <span class="highlight-badge">✓ Machine Learning</span>
-                    <span class="highlight-badge">✓ AWS Cloud</span>
-                    <span class="highlight-badge">✓ Optimization</span>
-                    <span class="highlight-badge">✓ Business Analytics</span>
+                    <span class="highlight-badge">Data Science</span>
+                    <span class="highlight-badge">Machine Learning</span>
+                    <span class="highlight-badge">IA Agéntica</span>
+                    <span class="highlight-badge">Chatbots</span>
+                    <span class="highlight-badge">Cloud & On-Premise</span>
+                    <span class="highlight-badge">Analítica de Negocios</span>
                 </div>
             </section>
 
             <section>
-                <h2>Consulting Services</h2>
-                <p>I help organizations leverage data and AI to solve complex business challenges:</p>
+                <h2>Servicios de Consultoría</h2>
+                <p>Ayudo a las organizaciones a aprovechar los datos y la inteligencia artificial para resolver desafíos de negocio complejos:</p>
                 <div class="services-grid">
                     <div class="service-card">
-                        <h3>📊 Data Analytics</h3>
-                        <p>Transform data into actionable insights with reporting systems and dashboards that drive informed decision-making.</p>
+                        <h3>📊 Analítica de Datos</h3>
+                        <p>Transformo datos en insights accionables con sistemas de reportes y dashboards que impulsan la toma de decisiones informada.</p>
                     </div>
                     <div class="service-card">
                         <h3>🤖 Machine Learning</h3>
-                        <p>Design and deploy ML systems for predictive modeling, demand forecasting, anomaly detection, and more.</p>
+                        <p>Diseño y despliegue de sistemas de ML para modelado predictivo, forecasting de demanda, detección de anomalías y más.</p>
                     </div>
                     <div class="service-card">
-                        <h3>☁️ Cloud Solutions</h3>
-                        <p>Architect and implement scalable data infrastructure on AWS with optimized costs and growth in mind.</p>
+                        <h3>🧠 IA Agéntica</h3>
+                        <p>Desarrollo de agentes inteligentes autónomos que ejecutan tareas complejas, toman decisiones y se integran con sistemas existentes para automatizar flujos de trabajo.</p>
                     </div>
                     <div class="service-card">
-                        <h3>🔧 Full Project Delivery</h3>
-                        <p>End-to-end data science projects from problem definition through production deployment and monitoring.</p>
+                        <h3>💬 Chatbots</h3>
+                        <p>Creación de asistentes conversacionales inteligentes para atención al cliente, soporte interno y automatización de procesos, integrados con IA generativa.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>☁️ Infraestructura de Datos</h3>
+                        <p>Arquitectura e implementación de infraestructura de datos escalable en la nube o on-premise, con costos optimizados y preparada para crecer.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>🔧 Entrega Integral de Proyectos</h3>
+                        <p>Proyectos de ciencia de datos de punta a punta: desde la definición del problema hasta el despliegue en producción y monitoreo continuo.</p>
                     </div>
                 </div>
             </section>
 
             <section>
-                <h2>Experience & Credentials</h2>
-                <p><strong>Current Role:</strong> Data Scientist at GoFundMe, leading data science initiatives to optimize platform performance and user experience.</p>
-                <p><strong>Background:</strong> 500+ professional connections, track record across financial services and technology companies in the US, Belgium, and Argentina.</p>
-                <p><strong>Certification:</strong> AWS Certified Machine Learning Specialist (2024-2027)</p>
-                <p><strong>Education:</strong> Master's degree from Universidad Torcuato Di Tella (2020-2022)</p>
+                <h2>Experiencia y Credenciales</h2>
+                <p class="experience-detail"><strong>Rol Actual:</strong> Data Scientist en GoFundMe, liderando iniciativas de ciencia de datos para optimizar el rendimiento de la plataforma y la experiencia de usuario.</p>
+                <p class="experience-detail"><strong>Trayectoria:</strong> Experiencia en fintechs, consultoras, bancos, empresas agropecuarias y startups en Estados Unidos, Bélgica y Argentina.</p>
+                <p class="experience-detail"><strong>Certificación:</strong> AWS Certified Machine Learning Specialist (2024-2027)</p>
+                <p class="experience-detail"><strong>Educación:</strong> Maestría en Universidad Torcuato Di Tella (2020-2022) &bull; Licenciatura en Economía, Universidad de Buenos Aires (UBA)</p>
+            </section>
+
+            <section class="companies-section">
+                <h2>Empresas con las que trabajé</h2>
+                <div class="companies-grid">
+                    <img src="https://logo.clearbit.com/gofundme.com" alt="GoFundMe" class="company-logo" title="GoFundMe">
+                    <img src="https://logo.clearbit.com/andela.com" alt="Andela" class="company-logo" title="Andela">
+                    <img src="https://logo.clearbit.com/teramind.co" alt="Teramind" class="company-logo" title="Teramind">
+                    <img src="https://logo.clearbit.com/ab-inbev.com" alt="AB InBev" class="company-logo" title="AB InBev">
+                    <img src="https://logo.clearbit.com/naranjax.com" alt="NaranjaX" class="company-logo" title="NaranjaX">
+                </div>
             </section>
 
             <section class="profile-links">
-                <h2>Get More Information</h2>
-                <p>For detailed experience, full profile information, and past projects:</p>
-                <a href="README.md" class="cta-button">View Services Overview</a>
-                <a href="PROFILE.md" class="cta-button" style="background: #95a5a6; margin-left: 10px;">View Full Profile</a>
+                <h2>Más Información</h2>
+                <p>Para conocer mi experiencia detallada, perfil completo y proyectos anteriores:</p>
+                <a href="README.md" class="cta-button">Ver Servicios</a>
+                <a href="PROFILE.md" class="cta-button" style="background: #95a5a6; margin-left: 10px;">Ver Perfil Completo</a>
                 <p style="margin-top: 20px;">
-                    For consulting inquiries, collaboration opportunities, or to discuss how I can help with your data challenges,
-                    <a href="https://www.linkedin.com/in/joaquin-tempelsman/" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 500;">connect with me on LinkedIn</a>.
+                    Para consultas de consultoría, oportunidades de colaboración, o para conversar sobre cómo puedo ayudar con tus desafíos de datos,
+                    <a href="https://www.linkedin.com/in/joaquin-tempelsman/" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 500;">conectemos en LinkedIn</a>.
                 </p>
             </section>
         </main>
     </div>
 
     <footer>
-        <p>© 2026 Joaquin Tempelsman. Data Science & AI Consulting.</p>
+        <p>&copy; 2026 Joaquin Tempelsman. Data Science & AI Consulting.</p>
     </footer>
 </body>
 </html>

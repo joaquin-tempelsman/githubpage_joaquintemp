@@ -1,55 +1,61 @@
 # Joaquin Tempelsman - Data Science & AI Consulting
 
-**Data Scientist at GoFundMe** | Buenos Aires, Argentina
+**Data Scientist en GoFundMe** | Buenos Aires, Argentina
 
 ---
 
-## Consulting Services
+## Servicios de Consultoría
 
-I help organizations unlock value from their data through AI-powered solutions and strategic data initiatives.
+Ayudo a las organizaciones a desbloquear el valor de sus datos a través de soluciones impulsadas por IA e iniciativas estratégicas de datos.
 
-### 📊 **Data Analytics & Business Intelligence**
-Transform raw data into actionable insights. I work with organizations to understand their data landscape, identify opportunities, and build reporting systems that drive informed decision-making.
+### 📊 **Analítica de Datos e Inteligencia de Negocios**
+Transformo datos en insights accionables. Trabajo con organizaciones para comprender su ecosistema de datos, identificar oportunidades y construir sistemas de reportes que impulsen la toma de decisiones informada.
 
-### 🤖 **Machine Learning Solutions**
-Design and implement machine learning systems that solve real business problems—from predictive modeling and anomaly detection to recommendation engines and demand forecasting.
+### 🤖 **Soluciones de Machine Learning**
+Diseño e implementación de sistemas de machine learning que resuelven problemas de negocio reales: desde modelado predictivo y detección de anomalías hasta motores de recomendación y forecasting de demanda.
 
-### ☁️ **Cloud Strategy & Implementation**
-Architect and deploy scalable data solutions on AWS. I help organizations migrate to cloud platforms, optimize costs, and build infrastructure that grows with their needs.
+### 🧠 **IA Agéntica**
+Desarrollo de agentes inteligentes autónomos que ejecutan tareas complejas, toman decisiones y se integran con sistemas existentes para automatizar flujos de trabajo empresariales.
 
-### 🔧 **End-to-End Project Delivery**
-From problem definition through production deployment, I deliver complete data science projects. This includes data pipeline development, model training, validation, and integration into existing systems.
+### 💬 **Chatbots**
+Creación de asistentes conversacionales inteligentes para atención al cliente, soporte interno y automatización de procesos, integrados con IA generativa.
 
----
+### ☁️ **Infraestructura de Datos**
+Arquitectura e implementación de soluciones de datos escalables en la nube o on-premise. Ayudo a las organizaciones a optimizar costos y construir infraestructura que crezca con sus necesidades.
 
-## Experience
-
-**Data Scientist** at GoFundMe
-Leading data science initiatives to optimize platform performance and user experience.
-
-**Previous Experience:**
-- Data science and analytics roles at leading financial services and technology companies
-- Work across multiple regions: United States, Belgium, and Argentina
-- Track record of delivering measurable business impact through data-driven solutions
+### 🔧 **Entrega Integral de Proyectos**
+Proyectos de ciencia de datos de punta a punta: desde la definición del problema hasta el despliegue en producción. Incluye desarrollo de pipelines de datos, entrenamiento de modelos, validación e integración con sistemas existentes.
 
 ---
 
-## Why Work With Me
+## Experiencia
 
-✓ **Business-Focused** — I translate technical analysis into clear business outcomes
-✓ **Proven Track Record** — 500+ professional connections, recognition for initiative and problem-solving
-✓ **End-to-End Expertise** — From strategy to implementation and beyond
-✓ **Bilingual** — Full professional proficiency in English and Spanish
-✓ **AWS Certified** — AWS Certified Machine Learning Specialist
+**Data Scientist** en GoFundMe
+Liderando iniciativas de ciencia de datos para optimizar el rendimiento de la plataforma y la experiencia de usuario.
+
+**Experiencia Previa:**
+- Roles de ciencia de datos y analítica en fintechs, consultoras, bancos, empresas agropecuarias y startups
+- Trayectoria internacional: Estados Unidos, Bélgica y Argentina
+- Historial comprobado de impacto medible en negocios a través de soluciones basadas en datos
 
 ---
 
-## Let's Connect
+## Por qué trabajar conmigo
+
+- **Enfoque en el Negocio** — Traduzco análisis técnicos en resultados de negocio claros
+- **Trayectoria Comprobada** — Experiencia en múltiples industrias y regiones
+- **Expertise de Punta a Punta** — Desde la estrategia hasta la implementación y el monitoreo
+- **Bilingüe** — Dominio profesional completo de inglés y español
+- **Certificación AWS** — AWS Certified Machine Learning Specialist
+
+---
+
+## Conectemos
 
 **LinkedIn:** https://www.linkedin.com/in/joaquin-tempelsman/
 
-For consulting inquiries or to discuss how I can help with your data challenges, please reach out via LinkedIn.
+Para consultas de consultoría o para conversar sobre cómo puedo ayudar con tus desafíos de datos, contactame por LinkedIn.
 
 ---
 
-*Available for consulting projects and strategic engagements.*
+*Disponible para proyectos de consultoría y alianzas estratégicas.*

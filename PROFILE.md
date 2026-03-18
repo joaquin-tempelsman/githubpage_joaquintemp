@@ -1,80 +1,83 @@
-# Joaquin Tempelsman - Professional Profile
+# Joaquin Tempelsman - Perfil Profesional
 
-## Contact & Links
+## Contacto y Links
 - **LinkedIn:** https://www.linkedin.com/in/joaquin-tempelsman/
-- **Location:** Argentina
-- **Professional Network:** 994 followers, 500+ connections
+- **Ubicación:** Buenos Aires, Argentina
 
 ---
 
-## Professional Summary
+## Resumen Profesional
 
-Data Scientist with a proven track record of designing and implementing AI-powered solutions that drive business value. Expertise in machine learning, optimization algorithms, cloud technologies, and data analytics across financial services and technology sectors. Known for methodical problem-solving, collaborative approach, and delivering measurable impact on complex business challenges.
+Científico de Datos con experiencia comprobada en el diseño e implementación de soluciones impulsadas por inteligencia artificial que generan valor de negocio. Especialización en machine learning, algoritmos de optimización, tecnologías cloud e inteligencia artificial agéntica en sectores de servicios financieros, tecnología y agroindustria. Reconocido por su enfoque metódico en resolución de problemas, colaboración y capacidad de generar impacto medible en desafíos complejos de negocio.
 
 ---
 
-## Current Position
+## Posición Actual
 
 **Data Scientist** | GoFundMe
-*Buenos Aires Province, Argentina*
+*Buenos Aires, Argentina*
 
-Leveraging machine learning and data analytics to optimize platform performance and user experience at one of the world's leading crowdfunding platforms.
-
----
-
-## Professional Experience
-
-### Key Highlights:
-- **Machine Learning & AI Solutions:** Designing, training, and deploying ML models for production environments
-- **Optimization:** Expert in mixed-integer linear programming and advanced analytical techniques
-- **Cloud Technologies:** AWS cloud architecture and deployment (AWS Certified Machine Learning Specialty)
-- **Data Engineering:** Building scalable data pipelines using Spark and SQL
-- **Analytics:** Translating complex data into actionable business insights
+Liderando iniciativas de machine learning y analítica de datos para optimizar el rendimiento de la plataforma y la experiencia de usuario en una de las principales plataformas de crowdfunding del mundo.
 
 ---
 
-## Technical Expertise
+## Experiencia Profesional
 
-### Core Competencies:
-- **Machine Learning & AI:** Deep learning, supervised/unsupervised learning, neural networks, hyperparameter optimization
-- **Data Science:** Statistical analysis, feature engineering, predictive modeling, data visualization
-- **Optimization:** Mixed-integer linear programming (MILP), operations research
-- **Cloud & Infrastructure:** AWS services, cloud deployment, scalability
-- **Programming Languages:** Python, SQL
-- **Big Data Tools:** Apache Spark, data processing frameworks
+### Industrias:
+- Fintechs
+- Consultoras
+- Bancos
+- Empresas agropecuarias
+- Startups
 
-### Certifications:
-- **AWS Certified Machine Learning Specialty** (Dec 2024 - Dec 2027)
-- Multiple Udemy certifications in ML specializations (2021-2022)
+### Aspectos Destacados:
+- **Machine Learning e IA:** Diseño, entrenamiento y despliegue de modelos de ML en entornos de producción
+- **IA Agéntica y Chatbots:** Desarrollo de agentes autónomos y asistentes conversacionales inteligentes
+- **Optimización:** Especialista en programación lineal entera mixta y técnicas analíticas avanzadas
+- **Infraestructura Cloud y On-Premise:** Arquitectura y despliegue de soluciones escalables
+- **Data Engineering:** Construcción de pipelines de datos escalables con Spark y SQL
+- **Analítica:** Traducción de datos complejos en insights de negocio accionables
 
 ---
 
-## Education
+## Expertise Técnico
 
-**Master's Degree** | Universidad Torcuato Di Tella
+### Competencias:
+- **Machine Learning e IA:** Deep learning, aprendizaje supervisado/no supervisado, redes neuronales, optimización de hiperparámetros
+- **IA Agéntica:** Agentes autónomos, orchestration, integración con sistemas
+- **Chatbots:** IA conversacional, NLP, integración con IA generativa
+- **Data Science:** Análisis estadístico, feature engineering, modelado predictivo, visualización de datos
+- **Optimización:** Programación lineal entera mixta (MILP), investigación operativa
+- **Cloud e Infraestructura:** Servicios cloud, despliegue, escalabilidad, on-premise
+- **Lenguajes de Programación:** Python, SQL
+- **Big Data:** Apache Spark, frameworks de procesamiento de datos
+
+### Certificaciones:
+- **AWS Certified Machine Learning Specialty** (Dic 2024 - Dic 2027)
+- Múltiples certificaciones en especializaciones de ML (2021-2022)
+
+---
+
+## Educación
+
+**Maestría** | Universidad Torcuato Di Tella
 *2020 - 2022*
 
-Specialized graduate-level coursework in data science, machine learning, and advanced analytics.
+**Licenciatura en Economía** | Universidad de Buenos Aires (UBA)
 
 ---
 
-## Languages
+## Idiomas
 
-- **English:** Full Professional Proficiency
-- **Spanish:** Native/Bilingual Proficiency
-
----
-
-## Professional Recognition
-
-Colleagues and supervisors consistently highlight:
-- Remarkable initiative and technical skill
-- Methodical and systematic approach to problem-solving
-- Strong collaborative ability and team contribution
-- Initiative in tackling complex analytical challenges
+- **Inglés:** Dominio profesional completo
+- **Español:** Nativo / Bilingüe
 
 ---
 
-## About This Profile
+## Reconocimiento Profesional
 
-This profile was generated from publicly available professional information. For detailed work experience dates, specific project details, and additional information, please visit the LinkedIn profile linked above or contact directly for consulting inquiries.
+Colegas y supervisores destacan de forma consistente:
+- Iniciativa notable y habilidad técnica
+- Enfoque metódico y sistemático en la resolución de problemas
+- Fuerte capacidad de colaboración y contribución al equipo
+- Iniciativa en abordar desafíos analíticos complejos
