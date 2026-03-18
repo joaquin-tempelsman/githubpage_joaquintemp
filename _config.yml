@@ -1,0 +1,26 @@
+title: Joaquin Tempelsman
+description: Data Science & AI Consulting
+author: Joaquin Tempelsman
+url: https://tj_mbp.github.io/githubpage_joaquintemp
+baseurl: /githubpage_joaquintemp
+
+theme: jekyll-theme-minimal
+
+# GitHub Pages settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+# Site settings
+email:
+twitter_username:
+github_username:
+linkedin_username: joaquin-tempelsman
+
+# Keep the index.html as-is, don't override with theme
+keep_files: [index.html]
