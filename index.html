@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joaquin Tempelsman - Data Science & AI Consulting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -12,151 +13,175 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: #f9f9f9;
+            color: #d4d4d8;
+            background: #18181b;
         }
 
         .container {
-            max-width: 900px;
+            max-width: 880px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 0 20px;
         }
 
+        /* --- Header --- */
         header {
-            background: white;
-            padding: 40px 20px 30px;
+            background: linear-gradient(180deg, #1e1e24 0%, #18181b 100%);
+            padding: 48px 20px 20px;
             text-align: center;
-            border-bottom: 1px solid #e0e0e0;
-            margin-bottom: 20px;
+            border-bottom: 1px solid #2a2a30;
         }
 
         .profile-img {
-            width: 140px;
-            height: 140px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 16px;
-            border: 3px solid #e0e0e0;
+            margin-bottom: 14px;
+            border: 3px solid #3f3f46;
+            box-shadow: 0 0 30px rgba(99, 102, 241, 0.15);
         }
 
         h1 {
-            font-size: 2.5em;
-            margin-bottom: 4px;
-            color: #2c3e50;
+            font-size: 2.4em;
+            font-weight: 700;
+            margin-bottom: 2px;
+            color: #fafafa;
+            letter-spacing: -0.02em;
         }
 
         .subtitle {
-            font-size: 1.2em;
-            color: #7f8c8d;
-            margin-bottom: 8px;
+            font-size: 1.1em;
+            color: #818cf8;
+            margin-bottom: 4px;
+            font-weight: 500;
         }
 
         .location {
-            color: #7f8c8d;
-            font-size: 0.95em;
-            margin-bottom: 12px;
+            color: #71717a;
+            font-size: 0.9em;
+            margin-bottom: 8px;
         }
 
         .social-links {
-            margin-top: 10px;
+            margin-top: 6px;
         }
 
         .social-links a {
             display: inline-flex;
             align-items: center;
-            gap: 6px;
-            color: #0a66c2;
             text-decoration: none;
-            font-weight: 500;
-            transition: opacity 0.2s;
+            transition: transform 0.2s;
         }
 
         .social-links a:hover {
-            opacity: 0.8;
+            transform: scale(1.15);
         }
 
         .social-links a svg {
-            width: 24px;
-            height: 24px;
-            fill: #0a66c2;
+            width: 22px;
+            height: 22px;
+            fill: #818cf8;
         }
 
+        /* --- Main content --- */
         main {
-            background: white;
+            background: #1e1e24;
             padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            border: 1px solid #2a2a30;
+            margin-top: 32px;
         }
 
         section {
-            margin-bottom: 40px;
+            margin-bottom: 44px;
         }
 
-        section:first-child {
-            margin-top: 0;
+        section:last-child {
+            margin-bottom: 0;
         }
 
         h2 {
-            font-size: 1.8em;
-            margin-bottom: 20px;
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 18px;
+            color: #fafafa;
+            border-bottom: 2px solid #818cf8;
+            padding-bottom: 8px;
+            letter-spacing: -0.01em;
         }
 
         .about-text {
             margin-bottom: 12px;
+            color: #a1a1aa;
+            font-size: 0.95em;
         }
 
+        /* --- Highlight badges --- */
         .highlights {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 8px;
             margin-top: 16px;
         }
 
         .highlight-badge {
-            background: #ecf0f1;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            color: #2c3e50;
+            background: #27272a;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.85em;
+            color: #c4b5fd;
+            border: 1px solid #3f3f46;
+            font-weight: 500;
         }
 
+        /* --- Services grid --- */
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 16px;
+            margin-top: 18px;
         }
 
         .service-card {
             padding: 20px;
-            background: #f8f9fa;
-            border-left: 4px solid #3498db;
-            border-radius: 4px;
+            background: #27272a;
+            border-left: 3px solid #818cf8;
+            border-radius: 8px;
+            transition: background 0.2s, border-color 0.2s;
+        }
+
+        .service-card:hover {
+            background: #2e2e35;
+            border-left-color: #a78bfa;
         }
 
         .service-card h3 {
-            margin-bottom: 10px;
-            color: #2c3e50;
+            margin-bottom: 8px;
+            color: #e4e4e7;
+            font-size: 1em;
+            font-weight: 600;
         }
 
         .service-card p {
-            color: #555;
+            color: #a1a1aa;
+            font-size: 0.88em;
+            line-height: 1.5;
+        }
+
+        /* --- Experience --- */
+        .experience-detail {
+            margin-bottom: 10px;
+            color: #a1a1aa;
             font-size: 0.95em;
         }
 
-        .experience-detail {
-            margin-bottom: 10px;
+        .experience-detail strong {
+            color: #d4d4d8;
         }
 
-        .companies-section {
-            margin-top: 40px;
-        }
-
+        /* --- Companies --- */
         .companies-section h2 {
             text-align: center;
         }
@@ -166,61 +191,91 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            gap: 40px;
-            margin-top: 30px;
+            gap: 36px;
+            margin-top: 24px;
         }
 
         .company-logo {
-            height: 40px;
-            max-width: 130px;
+            height: 36px;
+            max-width: 120px;
             object-fit: contain;
-            filter: grayscale(100%);
-            opacity: 0.6;
+            filter: grayscale(100%) brightness(0.7) invert(0.8);
+            opacity: 0.45;
             transition: filter 0.3s, opacity 0.3s;
         }
 
         .company-logo:hover {
-            filter: grayscale(0%);
+            filter: grayscale(0%) brightness(1);
             opacity: 1;
         }
 
+        /* --- CTA buttons --- */
         .cta-button {
             display: inline-block;
-            background: #3498db;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 4px;
+            background: #818cf8;
+            color: #18181b;
+            padding: 10px 24px;
+            border-radius: 6px;
             text-decoration: none;
-            font-weight: 500;
-            margin-top: 20px;
-            transition: background 0.3s;
+            font-weight: 600;
+            font-size: 0.9em;
+            margin-top: 16px;
+            transition: background 0.2s;
         }
 
         .cta-button:hover {
-            background: #2980b9;
+            background: #a78bfa;
         }
 
+        .cta-secondary {
+            background: #3f3f46;
+            color: #d4d4d8;
+            margin-left: 8px;
+        }
+
+        .cta-secondary:hover {
+            background: #52525b;
+        }
+
+        /* --- Profile links section --- */
         .profile-links {
-            margin-top: 30px;
-            padding-top: 30px;
-            border-top: 1px solid #e0e0e0;
+            padding-top: 28px;
+            border-top: 1px solid #2a2a30;
         }
 
+        .profile-links p {
+            color: #a1a1aa;
+            font-size: 0.95em;
+        }
+
+        .profile-links a.inline-link {
+            color: #818cf8;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .profile-links a.inline-link:hover {
+            color: #a78bfa;
+            text-decoration: underline;
+        }
+
+        /* --- Footer --- */
         footer {
             text-align: center;
-            padding: 20px;
-            color: #7f8c8d;
-            font-size: 0.9em;
+            padding: 24px 20px;
+            color: #52525b;
+            font-size: 0.85em;
             margin-top: 40px;
         }
 
+        /* --- Responsive --- */
         @media (max-width: 768px) {
             h1 {
-                font-size: 2em;
+                font-size: 1.8em;
             }
 
             main {
-                padding: 20px;
+                padding: 24px 18px;
             }
 
             .services-grid {
@@ -228,12 +283,22 @@
             }
 
             .companies-grid {
-                gap: 25px;
+                gap: 20px;
             }
 
             .company-logo {
-                height: 30px;
-                max-width: 100px;
+                height: 28px;
+                max-width: 90px;
+            }
+
+            .cta-button {
+                display: block;
+                text-align: center;
+                margin-left: 0;
+            }
+
+            .cta-secondary {
+                margin-left: 0;
             }
         }
     </style>
@@ -245,7 +310,7 @@
         <p class="subtitle">Data Science & AI Consulting</p>
         <p class="location">Buenos Aires, Argentina</p>
         <div class="social-links">
-            <a href="https://www.linkedin.com/in/joaquin-tempelsman/" target="_blank">
+            <a href="https://www.linkedin.com/in/joaquin-tempelsman/" target="_blank" aria-label="LinkedIn">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
             </a>
         </div>
@@ -258,18 +323,20 @@
                 <p class="about-text">Científico de Datos con experiencia en el diseño e implementación de soluciones impulsadas por inteligencia artificial que generan impacto medible en los negocios. Acompaño a organizaciones a desbloquear el valor de sus datos mediante consultoría estratégica, analítica avanzada e implementación de machine learning.</p>
                 <p class="about-text">Mi enfoque abarca todo el ciclo de vida de un proyecto de datos: desde la definición del problema y el diseño de la solución, hasta el despliegue en producción y el monitoreo continuo.</p>
                 <div class="highlights">
-                    <span class="highlight-badge">Data Science</span>
-                    <span class="highlight-badge">Machine Learning</span>
-                    <span class="highlight-badge">IA Agéntica</span>
+                    <span class="highlight-badge">Desarrollo End to End</span>
+                    <span class="highlight-badge">Forecasting</span>
+                    <span class="highlight-badge">Agentic Solutions</span>
                     <span class="highlight-badge">Chatbots</span>
+                    <span class="highlight-badge">Automatizaciones</span>
+                    <span class="highlight-badge">Machine Learning</span>
                     <span class="highlight-badge">Cloud & On-Premise</span>
-                    <span class="highlight-badge">Analítica de Negocios</span>
+                    <span class="highlight-badge">Data Science</span>
                 </div>
             </section>
 
             <section>
                 <h2>Servicios de Consultoría</h2>
-                <p>Ayudo a las organizaciones a aprovechar los datos y la inteligencia artificial para resolver desafíos de negocio complejos:</p>
+                <p style="color: #a1a1aa; font-size: 0.95em;">Ayudo a las organizaciones a aprovechar los datos y la inteligencia artificial para resolver desafíos de negocio complejos:</p>
                 <div class="services-grid">
                     <div class="service-card">
                         <h3>📊 Analítica de Datos</h3>
@@ -321,10 +388,10 @@
                 <h2>Más Información</h2>
                 <p>Para conocer mi experiencia detallada, perfil completo y proyectos anteriores:</p>
                 <a href="README.md" class="cta-button">Ver Servicios</a>
-                <a href="PROFILE.md" class="cta-button" style="background: #95a5a6; margin-left: 10px;">Ver Perfil Completo</a>
-                <p style="margin-top: 20px;">
+                <a href="PROFILE.md" class="cta-button cta-secondary">Ver Perfil Completo</a>
+                <p style="margin-top: 18px;">
                     Para consultas de consultoría, oportunidades de colaboración, o para conversar sobre cómo puedo ayudar con tus desafíos de datos,
-                    <a href="https://www.linkedin.com/in/joaquin-tempelsman/" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 500;">conectemos en LinkedIn</a>.
+                    <a href="https://www.linkedin.com/in/joaquin-tempelsman/" target="_blank" class="inline-link">conectemos en LinkedIn</a>.
                 </p>
             </section>
         </main>
