@@ -15,8 +15,8 @@
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: #d4d4d8;
-            background: #18181b;
+            color: #3a3a42;
+            background: #ededf0;
         }
 
         .container {
@@ -27,10 +27,10 @@
 
         /* --- Header --- */
         header {
-            background: linear-gradient(180deg, #1e1e24 0%, #18181b 100%);
-            padding: 48px 20px 20px;
+            background: #e2e2e8;
+            padding: 44px 20px 16px;
             text-align: center;
-            border-bottom: 1px solid #2a2a30;
+            border-bottom: 1px solid #d0d0d8;
         }
 
         .profile-img {
@@ -39,33 +39,33 @@
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 14px;
-            border: 3px solid #3f3f46;
-            box-shadow: 0 0 30px rgba(99, 102, 241, 0.15);
+            border: 3px solid #c8c8d0;
+            box-shadow: 0 4px 20px rgba(90, 86, 120, 0.12);
         }
 
         h1 {
             font-size: 2.4em;
             font-weight: 700;
             margin-bottom: 2px;
-            color: #fafafa;
+            color: #1e1e28;
             letter-spacing: -0.02em;
         }
 
         .subtitle {
             font-size: 1.1em;
-            color: #818cf8;
+            color: #6366f1;
             margin-bottom: 4px;
             font-weight: 500;
         }
 
         .location {
-            color: #71717a;
+            color: #7c7c88;
             font-size: 0.9em;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .social-links {
-            margin-top: 6px;
+            margin-top: 4px;
         }
 
         .social-links a {
@@ -82,16 +82,17 @@
         .social-links a svg {
             width: 22px;
             height: 22px;
-            fill: #818cf8;
+            fill: #6366f1;
         }
 
         /* --- Main content --- */
         main {
-            background: #1e1e24;
+            background: #f4f4f7;
             padding: 40px;
             border-radius: 12px;
-            border: 1px solid #2a2a30;
-            margin-top: 32px;
+            border: 1px solid #d8d8e0;
+            margin-top: 28px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
         }
 
         section {
@@ -106,15 +107,15 @@
             font-size: 1.5em;
             font-weight: 600;
             margin-bottom: 18px;
-            color: #fafafa;
-            border-bottom: 2px solid #818cf8;
+            color: #1e1e28;
+            border-bottom: 2px solid #6366f1;
             padding-bottom: 8px;
             letter-spacing: -0.01em;
         }
 
         .about-text {
             margin-bottom: 12px;
-            color: #a1a1aa;
+            color: #55555f;
             font-size: 0.95em;
         }
 
@@ -127,12 +128,12 @@
         }
 
         .highlight-badge {
-            background: #27272a;
+            background: #e8e8ee;
             padding: 6px 14px;
             border-radius: 6px;
             font-size: 0.85em;
-            color: #c4b5fd;
-            border: 1px solid #3f3f46;
+            color: #4f46e5;
+            border: 1px solid #d0d0da;
             font-weight: 500;
         }
 
@@ -146,26 +147,27 @@
 
         .service-card {
             padding: 20px;
-            background: #27272a;
-            border-left: 3px solid #818cf8;
+            background: #eaeaef;
+            border-left: 3px solid #6366f1;
             border-radius: 8px;
-            transition: background 0.2s, border-color 0.2s;
+            transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
         }
 
         .service-card:hover {
-            background: #2e2e35;
-            border-left-color: #a78bfa;
+            background: #e0e0e8;
+            border-left-color: #818cf8;
+            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
         }
 
         .service-card h3 {
             margin-bottom: 8px;
-            color: #e4e4e7;
+            color: #2a2a34;
             font-size: 1em;
             font-weight: 600;
         }
 
         .service-card p {
-            color: #a1a1aa;
+            color: #5a5a66;
             font-size: 0.88em;
             line-height: 1.5;
         }
@@ -173,12 +175,12 @@
         /* --- Experience --- */
         .experience-detail {
             margin-bottom: 10px;
-            color: #a1a1aa;
+            color: #55555f;
             font-size: 0.95em;
         }
 
         .experience-detail strong {
-            color: #d4d4d8;
+            color: #2a2a34;
         }
 
         /* --- Companies --- */
@@ -199,21 +201,21 @@
             height: 36px;
             max-width: 120px;
             object-fit: contain;
-            filter: grayscale(100%) brightness(0.7) invert(0.8);
-            opacity: 0.45;
+            filter: grayscale(100%);
+            opacity: 0.4;
             transition: filter 0.3s, opacity 0.3s;
         }
 
         .company-logo:hover {
-            filter: grayscale(0%) brightness(1);
+            filter: grayscale(0%);
             opacity: 1;
         }
 
         /* --- CTA buttons --- */
         .cta-button {
             display: inline-block;
-            background: #818cf8;
-            color: #18181b;
+            background: #6366f1;
+            color: #fff;
             padding: 10px 24px;
             border-radius: 6px;
             text-decoration: none;
@@ -224,38 +226,38 @@
         }
 
         .cta-button:hover {
-            background: #a78bfa;
+            background: #4f46e5;
         }
 
         .cta-secondary {
-            background: #3f3f46;
-            color: #d4d4d8;
+            background: #c8c8d2;
+            color: #2a2a34;
             margin-left: 8px;
         }
 
         .cta-secondary:hover {
-            background: #52525b;
+            background: #b8b8c4;
         }
 
         /* --- Profile links section --- */
         .profile-links {
             padding-top: 28px;
-            border-top: 1px solid #2a2a30;
+            border-top: 1px solid #d0d0da;
         }
 
         .profile-links p {
-            color: #a1a1aa;
+            color: #55555f;
             font-size: 0.95em;
         }
 
         .profile-links a.inline-link {
-            color: #818cf8;
+            color: #6366f1;
             text-decoration: none;
             font-weight: 500;
         }
 
         .profile-links a.inline-link:hover {
-            color: #a78bfa;
+            color: #4f46e5;
             text-decoration: underline;
         }
 
@@ -263,7 +265,7 @@
         footer {
             text-align: center;
             padding: 24px 20px;
-            color: #52525b;
+            color: #9898a4;
             font-size: 0.85em;
             margin-top: 40px;
         }
@@ -336,7 +338,7 @@
 
             <section>
                 <h2>Servicios de Consultoría</h2>
-                <p style="color: #a1a1aa; font-size: 0.95em;">Ayudo a las organizaciones a aprovechar los datos y la inteligencia artificial para resolver desafíos de negocio complejos:</p>
+                <p style="color: #55555f; font-size: 0.95em;">Ayudo a las organizaciones a aprovechar los datos y la inteligencia artificial para resolver desafíos de negocio complejos:</p>
                 <div class="services-grid">
                     <div class="service-card">
                         <h3>📊 Analítica de Datos</h3>
