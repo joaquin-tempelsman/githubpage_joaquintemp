@@ -14,14 +14,14 @@ Transformo datos en insights accionables. Trabajo con organizaciones para compre
 ### 🤖 **Soluciones de Machine Learning**
 Diseño e implementación de sistemas de machine learning que resuelven problemas de negocio reales: desde modelado predictivo y detección de anomalías hasta motores de recomendación y forecasting de demanda.
 
-### 🧠 **IA Agéntica**
+### 🧠 **Agentic AI**
 Desarrollo de agentes inteligentes autónomos que ejecutan tareas complejas, toman decisiones y se integran con sistemas existentes para automatizar flujos de trabajo empresariales.
 
 ### 💬 **Chatbots**
 Creación de asistentes conversacionales inteligentes para atención al cliente, soporte interno y automatización de procesos, integrados con IA generativa.
 
-### ☁️ **Infraestructura de Datos**
-Arquitectura e implementación de soluciones de datos escalables en la nube o on-premise. Ayudo a las organizaciones a optimizar costos y construir infraestructura que crezca con sus necesidades.
+### ⚙️ **Automatización**
+Reducí el tiempo y las horas hombre en procesos estratégicos de tu empresa mediante automatización inteligente de flujos de trabajo.
 
 ### 🔧 **Entrega Integral de Proyectos**
 Proyectos de ciencia de datos de punta a punta: desde la definición del problema hasta el despliegue en producción. Incluye desarrollo de pipelines de datos, entrenamiento de modelos, validación e integración con sistemas existentes.
